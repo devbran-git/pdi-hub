@@ -1,0 +1,14 @@
+{
+  "name": "pdi-hub",
+  "private": true,
+  "version": "0.1.0",
+  "description": "PDI Hub - Aplicação Fullstack para gestão de desenvolvimento profissional",
+  "workspaces": [
+    "apps/*"
+  ],
+  "scripts": {
+    "dev:backend": "npm run start:dev --workspace=apps/backend",
+    "build:backend": "npm run build --workspace=apps/backend",
+    "test:backend": "npm run test --workspace=apps/backend"
+  }
+}
